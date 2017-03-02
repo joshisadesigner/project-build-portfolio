@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>bootstrap portfolio</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="topbar__logo"><img src="images/logo.svg" alt="Joshisadesigner logo."></div>
+          </div>
+          <div class="col-xs-9">
+            <div class="topbar__info text-right text-uppercase">
+              <h1 class="topbar__name text-thin">Joshisadesigner</h1>
+              <h4 class="topbar__prof">Front-end Ninja</h4></div>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="row">
+          <div class="col-md-12">
+            <picture><img class="img-responsive" srcset="images/hero.jpg 900w, images/hero_large.jpg 1800w" sizes="100vw" src="images/hero.jpg" alt="This is an image of a website I made for asoguama.org."></picture>
+          </div>
+          <div class="col-sm-12">
+            <div class="hero__title text-center">
+              <h4>I'm Josh and I build websites!</h4></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="featured-work">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="featured">
+              <h2>Featured Work</h2></div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="work">
+              <figure><img class="img-responsive" srcset="images/logo-roma.jpg 555w, images/logo-roma_large.jpg 720w" sizes="33vw" src="images/logo-roma.jpg" alt="Image of the logo for Roma Corporation." data-toggle="modal" data-target="#roma"></figure>
+              <div class="work__info">
+                <h3 class="work__title text-uppercase">Roma Corporation</h3>
+                <p>Logo proposal for a guatemalan lawyers firm.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="work">
+              <figure><img class="img-responsive" srcset="images/logo-analisalab.jpg 555w, images/logo-analisalab_large.jpg 720w" sizes="33vw" src="images/logo-analisalab.jpg" alt="Image of the logo for Analisalab." data-toggle="modal" data-target="#analisalab"></figure>
+              <div
+                  class="work__info">
+                <h3 class="work__title text-uppercase">Analisalab</h3>
+                <p>Logo proposal for a research laboratory.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="work">
+              <figure><img class="img-responsive" srcset="images/logo-sillyconestudio.jpg 555w, images/logo-sillyconestudio_large.jpg 720w" sizes="33vw" src="images/logo-sillyconestudio.jpg" alt="Image of the logo for Sillycone.Studio." data-toggle="modal" data-target="#sillyconestudio"></figure>
+              <div
+                  class="work__info">
+                <h3 class="work__title text-uppercase">illycone.Studio</h3>
+                <p>Actual logo for a developers and designers start-up.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center">&copy; 1983-2017 Joshisadesigner.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal Roma-->
+    <div class="modal fade" id="roma" tabindex="-1" role="dialog" aria-labelledby="romaLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="romaLabel">Roma Corporation</h4></div>
+          <div class="modal-body"><img class="img-responsive" srcset="images/logo-roma.jpg 555w, images/logo-roma_large.jpg 720w" sizes="50vw" src="images/logo-roma.jpg" alt="Image of the logo for Roma Corporation.">
+            <p class="text-center">I made this logo trying to represent solidity and transparency to give the clients confidence on the company.</p>
+          </div>
+          <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Analisalab-->
+    <div class="modal fade" id="analisalab" tabindex="-1" role="dialog" aria-labelledby="analisalabLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="analisalabLabel">Roma Corporation</h4></div>
+          <div class="modal-body"><img class="img-responsive" srcset="images/logo-analisalab.jpg 555w, images/logo-analisalab_large.jpg 720w" sizes="50vw" src="images/logo-analisalab.jpg" alt="Image of the logo for Analisalab.">
+            <p class="text-center">This logo tryes to represent the study of the cells which is the primary field where of this company.</p>
+          </div>
+          <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Analisalab-->
+    <div class="modal fade" id="sillyconestudio" tabindex="-1" role="dialog" aria-labelledby="sillyconestudioLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="sillyconestudioLabel">Roma Corporation</h4></div>
+          <div class="modal-body"><img class="img-responsive" srcset="images/logo-sillyconestudio.jpg 555w, images/logo-sillyconestudio_large.jpg 720w" sizes="50vw" src="images/logo-sillyconestudio.jpg" alt="Image of the logo for Sillycone.Studio.">
+            <p class="text-center">This logo is actually a pun which tryes to give the client the meaning of creativity which is the most important tool for development and design in Sillycone.Studio.</p>
+          </div>
+          <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/plugins.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>
